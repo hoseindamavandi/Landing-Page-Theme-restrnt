@@ -1,0 +1,183 @@
+@media only screen and (max-width : 979px) {
+.rslides img {
+    object-fit:cover
+}
+
+.wrapper,.blog-wrapper,.container {
+    width:100%
+}
+
+.featured ul li {
+    width:100%;
+    margin-left:0;
+    margin-right:0
+}
+
+.content {
+    display:block
+}
+
+.views p {
+    padding-top:10px
+}
+
+.project-landing .grid figure {
+    width:22%
+}
+}
+
+@media only screen and (max-width : 767px) {
+.cover {
+    height:auto
+}
+
+.text-slider {
+    margin-bottom:20px
+}
+}
+
+@media only screen and (max-width : 480px) {
+.landing-nav,.logo {
+    float:none;
+    display:none;
+    margin:0 auto;
+}
+
+.landing-nav ul li a {
+    font-size:13px;
+    padding:0 10px;
+}
+
+.project-landing .grid figure {
+    width:45%;
+}
+
+.views p {
+    font-size:20px;
+}
+
+.about-landing .about-text,.about-landing .thumb {
+    width:100%;
+    margin:0;
+}
+
+.about-landing .thumb img {
+    float:none;
+    display:table;
+    margin:0 auto;
+}
+
+.featured ul li {
+    width:100%;
+    margin:0;
+    padding:20px;
+}
+
+.blog-landing .post .right,.blog-landing .post .left {
+    width:100%;
+}
+}
+
+@media only screen and (max-width : 480px) {
+.landing-cover {
+    top:20%;
+}
+
+.text-slider ul li {
+    font-size:25px;
+}
+
+.twice ul li a {
+    width:130px;
+}
+
+.featured-landing .featured-title h2 {
+    font-size:24px;
+}
+
+.project-landing .grid {
+    padding:10px;
+}
+
+.project-landing .grid figure {
+    width:100%;
+    margin-right:0;
+    margin-left:0;
+}
+
+.project-landing .grid figure img {
+    width:100%;
+}
+
+.content {
+    padding:10px;
+}
+
+.blog-landing .post {
+    padding-bottom:10px;
+}
+
+.blog-landing .post .more {
+    margin-top:0;
+}
+
+.map,.contact-form {
+    width:100%;
+    padding:10px;
+}
+
+.map {
+    width:100%;
+}
+}
+
+
+.responsive-nav {
+    float:right;
+    display:block;
+}
+
+.responsive-nav .icon-bar {
+    display:block;
+    width:22px;
+    height:2px;
+    border-radius:1px;
+    background:#373737;
+    margin:5px
+}
+
+.responsive-nav .nav-bar {
+    margin:20px 30px 0 0;
+    cursor:pointer;
+}
+
+.responsive-nav ul {
+    display:none;
+    width:100%;
+    position:absolute;
+    top:75px;
+    background-color:#fff
+}
+
+.responsive-nav ul li {
+    width:100%;
+    float:none;
+}
+
+.responsive-nav ul li a {
+    display:block;
+    text-align:center;
+}
+
+.responsive-nav ul li a {
+    color:#666;
+    display:block;
+    font-size:15px;
+    padding:0 15px;
+    line-height:60px
+}
+
+.responsive-nav ul li a:hover {
+    background:#E74C3C;
+    color:#fff;
+}
